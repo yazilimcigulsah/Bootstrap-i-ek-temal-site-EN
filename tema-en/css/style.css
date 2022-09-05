@@ -1,0 +1,67 @@
+.dark-bg{
+   /* background-image: linear-gradient(rgba(0,0,0, .9), rgba(0,0,0, .9));*/
+
+
+
+background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+url("../img/lale.webp");
+
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#hero .container{
+    height: 50vh;
+}
+
+.generic{
+    padding:100px 0;
+}
+
+/* Latest Section */
+
+section#latest .latest-item img{
+    min-height:100%;
+    width:100%;
+}
+
+section#latest button {
+    max-height:250px;
+    padding: 0;
+    overflow: hidden;
+}
+
+section#latest .latest-item{
+    position: relative;
+}
+
+section#latest .latest-item:hover .overlay{
+    opacity: 1;
+    background: rgba(189,61,75, .9);
+}
+
+section#latest .latest-item:hover i{
+    opacity: 1;
+    transform: none;
+}
+
+body{
+    text-align:left!important;
+}
+.btnresimac{
+    background-color: black;
+}
+
+.imageicon{
+    color:white;
+}
+
+
+.btnresimac:hover .imageicon{
+    color:black;
+}
+
+.card h5,.card h6{
+    text-align:center;
+}
